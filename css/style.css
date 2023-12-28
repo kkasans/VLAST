@@ -55,12 +55,16 @@ ul,li { margin: 0; padding: 0; list-style: none; }
 div.swiper-button-prev { position: absolute; left: 5%; color: #fff; } 
 div.swiper-button-next { position: absolute; right: 5%; color: #fff; } 
 #plave-member { position: relative; width: 100%; height: 1000px; background-color: #000; } 
-.member { padding-top: 150px; margin: 144px auto 0; width: 1240px; font-family: 'Russo One'; font-size: 48px; text-align: center; color: #fff; font-weight: 400; display: flex; justify-content: space-between; } 
+.member { padding-top: 150px; margin: 144px auto 0; width: 1240px;  display: flex; justify-content: space-between; } 
+.member p { font-family: 'Russo One'; font-size: 48px; text-align: center; color: #fff; font-weight: 400; text-shadow: 0 0 10px rgba(0, 0, 0, 0.3); opacity: 0; }
 .member .m1 { width: 210px; height: 550px; background: url("../images/member_yejun.jpg"); } 
 .member .m2 { width: 210px; height: 550px; background: url("../images/member_noah.jpg"); } 
 .member .m3 { width: 210px; height: 550px; background: url("../images/member_bamby.jpg"); } 
 .member .m4 { width: 210px; height: 550px; background: url("../images/member_eunho.jpg"); } 
 .member .m5 { width: 210px; height: 550px; background: url("../images/member_hamin.jpg"); } 
+.member .m1, .member .m2, .member .m3, .member .m4, .member .m5 {width: 210px; height: 550px; filter: grayscale(100%);}
+.member .m1:hover, .member .m2:hover, .member .m3:hover, .member .m4:hover, .member .m5:hover { filter: grayscale(0%); transition: 0.5s;}
+.member .m1:hover p, .member .m2:hover p, .member .m3:hover p, .member .m4:hover p, .member .m5:hover p { opacity: 1; transition: 0.7s; }
 .member-info { width: 100%; position: absolute; bottom: 100px; margin-top: 740px; font-family: 'Noto Sans KR'; font-weight: 400; color: #fff; text-align: center; margin-left: 0; letter-spacing: -0.03em; } 
 #plave-video { position: relative; width: 100%; height: 1000px; background-color: #000; padding-top: 170px; font-size: 32px; letter-spacing: -0.04em; text-align: center; font-weight: 500; } 
 .video-wrapper1,.video-wrapper2 { position: absolute; width: 100%; gap: 20px; text-align: center; } 
@@ -94,9 +98,9 @@ a.mail1,a.mail2,a.mail3 { padding-top: 4px; }
 .talent-info { width: 1240px; height: 800px; padding: 114px 113px 308.5px 308.5px; background-image: linear-gradient( rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.3) 100%);border-top: 2px solid #eb0f69; margin-left: auto; margin-right: auto; } 
 .talent-info p { width: 624px; } 
 /* ======================================== news ======================================== */
-#news { position: relative; padding-top: 250px; width: 100%; height: 900px; background-color: #000; } 
+#news { position: relative; padding-top: 200px; width: 100%; height: 900px; background-color: #000; } 
 #news ul { position: absolute; left: calc(50% - 620px); width: 1240px; display: flex; flex-wrap: wrap; justify-content: space-between; } 
-#news ul li { width: 295px; height: 282px; background-color: rgba(255, 255, 255, 0.7); padding: 20px 20px 20px 20px; margin-bottom: 20px; } 
+#news ul li { width: 295px; height: 300px; background-color: rgba(255, 255, 255, 0.7); padding: 20px 20px 20px 20px; margin-bottom: 20px; } 
 .hvr-sweep-to-top { display: inline-block; vertical-align: middle; -webkit-transform: perspective(1px) translateZ(0); transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); position: relative; -webkit-transition-property: color; transition-property: color; -webkit-transition-duration: 0.3s; transition-duration: 0.3s; } 
 .hvr-sweep-to-top:before { content: ""; position: absolute; z-index: -1; top: 0; left: 0; right: 0; bottom: 0; background: #eb0f69; -webkit-transform: scaleY(0); transform: scaleY(0); -webkit-transform-origin: 50% 100%; transform-origin: 50% 100%; -webkit-transition-property: transform; transition-property: transform; -webkit-transition-duration: 0.3s; transition-duration: 0.3s; -webkit-transition-timing-function: ease-out; transition-timing-function: ease-out; } 
 .hvr-sweep-to-top:hover,
