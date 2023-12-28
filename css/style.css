@@ -43,11 +43,11 @@ ul,li { margin: 0; padding: 0; list-style: none; }
 .about-technology { position: absolute; top: 2250px; font-size: 32px; letter-spacing: -0.04em; text-align: center; font-weight: 500; width: 100%; } 
 .about-technology-video { position: absolute; top: 2350px; width: 100%; text-align: center; } 
 #plave-main { position: relative; margin-top: 990px; width: 100%; height: 100vh; background-color: #000; padding-top: 30px; } 
-.swiper { position: absolute; display: inline-block; width: 1240px; height: 100vh; left: calc(50% - 620px); z-index: 9; object-fit: cover; display: block; } 
-.swiper-slide:nth-child(1) { background: url("../images/slide/slide1.jpg")no-repeat center; } 
-.swiper-slide:nth-child(2) { background: url("../images/slide/slide2.jpg")no-repeat center; } 
-.swiper-slide:nth-child(3) { background: url("../images/slide/slide3.jpg")no-repeat center; } 
-.swiper-slide:nth-child(4) { background: url("../images/slide/slide4.jpg")no-repeat center; } 
+.swiper { position: absolute; display: inline-block; width: 100%; height: 100vh; z-index: 9; object-fit: cover; display: block; } 
+.swiper-slide:nth-child(1) { background: url("../images/slide/slide1.jpg")no-repeat center/cover; } 
+.swiper-slide:nth-child(2) { background: url("../images/slide/slide2.jpg")no-repeat center/cover; } 
+.swiper-slide:nth-child(3) { background: url("../images/slide/slide3.jpg")no-repeat center/cover; } 
+.swiper-slide:nth-child(4) { background: url("../images/slide/slide4.jpg")no-repeat center/cover; } 
 div.swiper-button-prev { position: absolute; left: 5%; color: #fff; } 
 div.swiper-button-next { position: absolute; right: 5%; color: #fff; } 
 #plave-member { position: relative; width: 100%; height: 1000px; background-color: #000; } 
@@ -67,7 +67,7 @@ div.swiper-button-next { position: absolute; right: 5%; color: #fff; }
 #plave-sns { position: relative; width: 100%; height: 1000px; background-color: #000; padding-top: 400px; text-align: center; color: #fff; } 
 .sns-title { font-family: 'Noto Sans KR'; font-size: 32px; letter-spacing: -0.03em; } 
 .sns-item { margin-top: 70px; font-size: 3rem; gap: 100px; display: inline-block; display: flex; justify-content: center; } 
-.sns-item a { padding-left: 1px; padding-top: 11px; position: relative; display: block; width: 100px; height: 100px; text-align: center; border-radius: 50%; font-size: 50px; color: #666; transition: .5s; } 
+.sns-item a { padding-left: 1px; padding-top: 11px; position: relative; display: block; width: 100px; height: 100px; text-align: center; border-radius: 50%; font-size: 50px; color: #fff; transition: .5s; } 
 .sns-item a::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 50%; background: #eb0f69; transition: .5s; transform: scale(.9); z-index: -1; } 
 .sns-item a:hover::before { transform: scale(1.1); box-shadow: 0 0 15px #eb0f69; } 
 .sns-item a:hover { color: #eb0f69; box-shadow: 0 0 5px #eb0f69; text-shadow: 0 0 5px #eb0f69; } 
