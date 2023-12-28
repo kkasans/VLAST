@@ -85,7 +85,7 @@ div.swiper-button-next { position: absolute; right: 5%; color: #fff; }
 a.mail1,a.mail2,a.mail3 { padding-top: 4px; } 
 .button-wrap1,.button-wrap2,.button-wrap3 { padding: 17px 17px 27px 27px; display: flex; justify-content: center; gap: 12px; } 
 .apply1,.apply2,.apply3 { width: 60px; height: 30px; } 
-#careers-talent { position: relative; width: 100%; height: 1000px; padding-top: 100px;} 
+#careers-talent { position: relative; width: 100%; height: 1000px; padding-top: 100px; color: #000; font-family: 'Noto Sans KR'; font-size: 16px; line-height: 32px; letter-spacing: -0.04em;} 
 .talent-info { width: 1240px; height: 700px; padding: 64px 63px 308.5px 308.5px; background-color: #cdcdcd; margin-left: auto; margin-right: auto; } 
 .talent-info p { width: 624px; } 
 #news { position: relative; padding-top: 250px; width: 100%; height: 900px; background-color: #000; } 
