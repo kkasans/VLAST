@@ -5,6 +5,7 @@ a:hover { text-decoration: none; }
 ul,li { margin: 0; padding: 0; list-style: none; } 
 #body { background-color: #000; } 
 #wrap { position: relative; background-color: #000; width: 100%; overflow: hidden; text-align: left; } 
+/* ======================================== header ======================================== */
 .start-header { opacity: 1; transform: translateY(0); padding: 20px 0; -webkit-transition: all 0.3s ease-out; transition: all 0.3s ease-out; } 
 .start-header.scroll-on { padding: 10px 0; -webkit-transition: all 0.3s ease-out; transition: all 0.3s ease-out; } 
 .start-header.scroll-on .navbar-logo img { height: 24px; -webkit-transition: all 0.3s ease-out; transition: all 0.3s ease-out; } 
@@ -26,6 +27,7 @@ ul,li { margin: 0; padding: 0; list-style: none; }
 .dropdown-item { padding: 3px 15px; color: #212121; border-radius: 2px; transition: all 200ms linear; } 
 .dropdown-item:hover,
 .dropdown-item:focus { color: #fff; background-color: rgba(255, 136, 195, 0.8); } 
+/* ======================================== main ======================================== */
 .promo { position: absolute; display: inline-block; width: 100%; height: 100vh; top: 0; left: 0; z-index: 9; object-fit: cover; display: block; } 
 #home { position: relative; width: 100%; height: 100vh; background-color: #000; } 
 .play-beyond-play { position: absolute; top: 418px; left: 100px; font-size: 64px; letter-spacing: -0.03em; line-height: 64px; color: #fff; font-weight: 500; font-family: 'Noto Sans KR'; display: flex; align-items: center; width: 600px; text-shadow: 0 0 10px rgba(0, 0, 0, 0.2); z-index: 999; animation: slideInLeft 0.7s ease-in-out forwards 0s } 
@@ -33,6 +35,7 @@ ul,li { margin: 0; padding: 0; list-style: none; }
  0% { transform: translateX(-30px); opacity: 0; } 
  100% { transform: translateX(0px); opacity: 1; } 
  }
+ /* ======================================== about ======================================== */
 #about { background-color: #000; position: relative; top: 0px; margin: 0 auto; width: 100%; height: 1950px; align-items: center; color: #fff; line-height: 45px; font-size: 24px; font-family: 'Noto Sans KR'; } 
 .video1 { position: absolute; left: calc(50% - 620px); margin-top: 200px; } 
 .box-right { top: 300px; right: 0px; background: linear-gradient(-90deg, #eb0f69, rgba(235, 15, 105, 0)); width: 900px; height: 238px; position: absolute; } 
@@ -42,6 +45,7 @@ ul,li { margin: 0; padding: 0; list-style: none; }
 .vfx { top: 1350px; margin-left: 90px; letter-spacing: -0.03em; text-align: left; width: 529px; text-shadow: 0 0 10px rgba(0, 0, 0, 0.2); position: absolute; } 
 .about-technology { position: absolute; top: 2250px; font-size: 32px; letter-spacing: -0.04em; text-align: center; font-weight: 500; width: 100%; } 
 .about-technology-video { position: absolute; top: 2350px; width: 100%; text-align: center; } 
+/* ======================================== plave ======================================== */
 #plave-main { position: relative; margin-top: 990px; width: 100%; height: 100vh; background-color: #000; padding-top: 30px; } 
 .swiper { position: absolute; display: inline-block; width: 100%; height: 100vh; z-index: 9; object-fit: cover; display: block; } 
 .swiper-slide:nth-child(1) { background: url("../images/slide/slide1.jpg")no-repeat center/cover; } 
@@ -71,12 +75,13 @@ div.swiper-button-next { position: absolute; right: 5%; color: #fff; }
 .sns-item a::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 50%; background: #eb0f69; transition: .5s; transform: scale(.9); z-index: -1; } 
 .sns-item a:hover::before { transform: scale(1.1); box-shadow: 0 0 15px #eb0f69; } 
 .sns-item a:hover { color: #eb0f69; box-shadow: 0 0 5px #eb0f69; text-shadow: 0 0 5px #eb0f69; } 
-#careers { position: relative; width: 100%; height: 1000px; background-color: #000; text-align: left; color: #000; font-family: 'Noto Sans KR'; font-size: 16px; line-height: 32px; letter-spacing: -0.04em; display: flex; justify-content: center; padding-top: 280px; } 
-.carrers-info { width: 1240px; height: 500px; padding: 50px 50px 308.5px 308.5px; background-color: #cdcdcd; margin-left: auto; margin-right: auto; } 
-#careers-recruit { position: relative; width: 100%; height: 1600px; background-color: #000; text-align: left; color: #000; font-family: 'Noto Sans KR'; font-size: 16px; line-height: 28px; letter-spacing: -0.04em; padding: 200px; } 
-.careers-recruit-info { display: flex; width: 1240px; margin: 0 auto; /* padding: 56px 62px 62px; */
+/* ======================================== careers ======================================== */
+#careers { position: relative; width: 100%; height: 1000px; background-color: #000; text-align: left; color: #000; font-family: 'Noto Sans KR'; font-size: 16px; line-height: 32px; letter-spacing: -0.04em; display: flex; justify-content: center; padding-top: 150px; } 
+.carrers-info { width: 1240px; height: 700px; padding: 150px 150px 308.5px 308.5px; background-image: linear-gradient( rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.3) 100%);border-top: 2px solid #eb0f69; margin-left: auto; margin-right: auto; } 
+#careers-recruit { position: relative; width: 100%; height: 1600px; background-color: #000; text-align: left; color: #000; font-family: 'Noto Sans KR'; font-size: 16px; line-height: 28px; letter-spacing: -0.04em; padding-top: 100px;; } 
+.careers-recruit-info { display: flex; width: 1240px; margin: 0 auto;
  justify-content: space-between; } 
-.recruit1-info,.recruit2-info { width: 600px; height: 1200px; background-color: #cdcdcd; padding: 56px 62px 62px; } 
+.recruit1-info,.recruit2-info { width: 600px; height: 1300px; background-image: linear-gradient( rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.3) 100%);border-top: 2px solid #eb0f69; padding: 96px 62px 62px; } 
 .button1,.button2,.button3 { position: absolute; width: 180px; height: 70px; background-color: #fff; color: #000; font-family: 'Noto Sans KR'; font-size: 20px; line-height: 30px; letter-spacing: -0.04em; border-radius: 50px; bottom: 60px; } 
 .button1:hover,.button2:hover,.button3:hover { background-color: #eb0f69; color: #fff; transition: 0.7s; } 
 .button1 { left: calc(33.3% - 90px); } 
@@ -85,9 +90,10 @@ div.swiper-button-next { position: absolute; right: 5%; color: #fff; }
 a.mail1,a.mail2,a.mail3 { padding-top: 4px; } 
 .button-wrap1,.button-wrap2,.button-wrap3 { padding: 17px 17px 27px 27px; display: flex; justify-content: center; gap: 12px; } 
 .apply1,.apply2,.apply3 { width: 60px; height: 30px; } 
-#careers-talent { position: relative; width: 100%; height: 1000px; padding-top: 100px; color: #000; font-family: 'Noto Sans KR'; font-size: 16px; line-height: 32px; letter-spacing: -0.04em;} 
-.talent-info { width: 1240px; height: 700px; padding: 64px 63px 308.5px 308.5px; background-color: #cdcdcd; margin-left: auto; margin-right: auto; } 
+#careers-talent { position: relative; width: 100%; height: 1100px; margin-top: 100px; padding-top: 110px; color: #000; font-family: 'Noto Sans KR'; font-size: 16px; line-height: 32px; letter-spacing: -0.04em;} 
+.talent-info { width: 1240px; height: 800px; padding: 114px 113px 308.5px 308.5px; background-image: linear-gradient( rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.3) 100%);border-top: 2px solid #eb0f69; margin-left: auto; margin-right: auto; } 
 .talent-info p { width: 624px; } 
+/* ======================================== news ======================================== */
 #news { position: relative; padding-top: 250px; width: 100%; height: 900px; background-color: #000; } 
 #news ul { position: absolute; left: calc(50% - 620px); width: 1240px; display: flex; flex-wrap: wrap; justify-content: space-between; } 
 #news ul li { width: 295px; height: 282px; background-color: rgba(255, 255, 255, 0.7); padding: 20px 20px 20px 20px; margin-bottom: 20px; } 
@@ -102,10 +108,12 @@ a.mail1,a.mail2,a.mail3 { padding-top: 4px; }
 #news ul li img { width: 254px; } 
 #news ul p { text-align: left; color: #000; font-family: 'Noto Sans KR'; font-weight: 400; font-size: 16px; line-height: 23px; letter-spacing: -0.04em; } 
 #news ul p.time { font-weight: 350; font-size: 14px; text-align: center; } 
+/* ======================================== contact ======================================== */
 #contact { margin-top: 200px; position: relative; width: 100%; height: 900px; background-color: #000; text-align: left; color: #000; font-family: 'Noto Sans KR'; font-weight: 400; font-size: 20px; line-height: 32px; letter-spacing: -0.04em; padding: 400px; margin-bottom: 400px; } 
-.contact-container { position: absolute; width: 1240px; height: 268px; background-color: #cdcdcd; left: calc(50% - 620px); letter-spacing: -0.04em; text-align: center; padding-top: 38px; } 
+.contact-container { position: absolute; width: 1240px; height: 500px; background-image: linear-gradient( rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.3) 100%);border-top: 2px solid #eb0f69; left: calc(50% - 620px); letter-spacing: -0.04em; text-align: center; padding-top: 170px; } 
 a.mail { color: #eb0f69; } 
 a.mail:hover { color: #eb0f69; text-decoration: underline; } 
+/* ======================================== footer ======================================== */
 #footer { width: 100%; display: inline-block; text-align: center; font-family: 'Noto Sans KR'; font-weight: 400; font-size: 16px; line-height: 23px; letter-spacing: -0.04em; } 
 body { display: flex; justify-content: flex-end; align-items: flex-end; min-height: 100vh; } 
 .footer { position: relative; width: 100%; background: #eb0f69; min-height: 100px; display: flex; justify-content: center; align-items: center; flex-direction: column; } 
