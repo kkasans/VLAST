@@ -6,13 +6,12 @@ ul,li { margin: 0; padding: 0; list-style: none; }
 #body { background-color: #000; } 
 #wrap { position: relative; background-color: #000; width: 100%; overflow: hidden; text-align: left; } 
 /* ======================================== header ======================================== */
-.start-header { opacity: 1; transform: translateY(0); padding: 20px 0; -webkit-transition: all 0.3s ease-out; transition: all 0.3s ease-out; } 
+.start-header { opacity: 1; transform: translateY(0); padding: 15px 10px; -webkit-transition: all 0.3s ease-out; transition: all 0.3s ease-out; } 
 .start-header.scroll-on { padding: 10px 0; -webkit-transition: all 0.3s ease-out; transition: all 0.3s ease-out; } 
-.start-header.scroll-on .navbar-logo img { height: 24px; -webkit-transition: all 0.3s ease-out; transition: all 0.3s ease-out; } 
+.start-header.scroll-on .navbar-logo img { height: 20px; -webkit-transition: all 0.3s ease-out; transition: all 0.3s ease-out; } 
 .navigation-wrap { position: fixed; width: 100%; top: 0; left: 0; z-index: 1000; } 
-.navbar { padding: 0; } 
-.navbar-expand { width: 1240px; left: calc(50% - 620px); } 
-.navbar-logo img { height: 28px; width: auto; display: block; -webkit-transition: all 0.3s ease-out; transition: all 0.3s ease-out; } 
+.navbar-nav {position: absolute; right: 0;}
+.navbar-logo img { height: 24px; width: auto; display: block; -webkit-transition: all 0.3s ease-out; transition: all 0.3s ease-out;} 
 .nav-link { color: #000; font-family: 'Poppins'; font-weight: 500; transition: all 200ms linear; position: relative; display: inline-block; } 
 .nav-item:hover .nav-link { color: #eb0f69 !important; } 
 .nav-item.active .nav-link { color: #777 !important; } 
@@ -26,7 +25,7 @@ ul,li { margin: 0; padding: 0; list-style: none; }
 .dropdown-toggle::after { display: none; } 
 .dropdown-item { padding: 3px 15px; color: #212121; border-radius: 2px; transition: all 200ms linear; } 
 .dropdown-item:hover,
-.dropdown-item:focus { color: #fff; background-color: #eb0f69; } 
+.dropdown-item:focus { color: #fff; background-color: rgba(255, 136, 195, 0.8); } 
 /* ======================================== main ======================================== */
 .promo { position: absolute; display: inline-block; width: 100%; height: 100vh; top: 0; left: 0; z-index: 9; object-fit: cover; display: block; } 
 #home { position: relative; width: 100%; height: 100vh; background-color: #000; } 
